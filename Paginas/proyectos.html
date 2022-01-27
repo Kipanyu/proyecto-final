@@ -4,45 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fasthand&family=Quattrocento&family=Quattrocento+Sans&family=Quicksand:wght@300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://kit.fontawesome.com/27b2cddede.js" crossorigin="anonymous"></script>
     <title>Primer Entrega</title>
 </head>
-<body id="bodyInfo">
-<header>
-        <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="info.html">Info</a></li>
-            <li><a href="./proyectos.html">Proyectos</a><li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-        </nav>
-        <section class="flex-container-proyectos">
-    <div class="box1">
-        <h3>Proyectos</h3>
-            <p class="infotexto2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste sit modi exercitationem molestias culpa dolore ea harum corrupti voluptatibus quo. Fuga cum blanditiis quasi aliquam, amet earum repudiandae beatae laborum!
-            <p>
-                
-    </div>
-    <div class="cajas">
-    <div id="cajita">1</div>
-                <div id="cajita">2</div>
-                <div id="cajita">3</div>
-                <div id="cajita">4</div>
-    <div>
-    </div>
+<body>
+    <nav class="menu-container">
+        <!--  menu rayas -->
+        <input type="checkbox" aria-label="Toggle menu" />
+        <span></span>
+        <span></span>
+        <span></span>
 
-    <div>
-    </section>
-</header>    
-<footer>
-        <ul>
-            <li><a href="https://www.facebook.com">Facebook</a></li>
-            <li><a href="https://www.instagram.com">Instagram</a></li>
-            <li><a href="https://www.linkedin.com">Linkedin</a></li>
-        </ul></footer>
+        <!-- logo -->
+        <a href="#" class="menu-logo">
+            <img src="./imagenes/logoipsum-logo-53.svg" alt="un_logo" />
+        </a>
+
+        <!--  items -->
+        <div class="menu">
+            <ul>
+            </ul>
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./info.html">
+                        Info
+                    </a>
+                </li>
+                <li>
+                    <a href=./contacto.html>
+                        Contacto
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Proyectos
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="main-header" data-aos="fade-down" data-aos-delay="50" data-aos-easing="linear"
+        data-aos-duration="1500">
+
+        <h1>
+            <p class="codigo">&lth1&gt</p><span>Proyectos<p class="codigo">&lt/h1&gt</p>
+        </h1>
+
+    </header>
+    <main class="container" data-aos="fade-up" data-aos-duration="3000">
+        <p class="codigo">&ltsection&gt</p>
+        <section class="card">
+            <div>
+                <h3>proyectos</h3>
+                <p class="sub">Lorem</p>
+            </div>
+            <div class="box_div_container">
+                <div class="box_div">entry</div>
+                <div class="box_div">entry</div>
+                <div class="box_div">entry</div>
+                <div class="box_div">entry</div>
+            </div>
+        </section>
+        <p class="codigo">&lt/section&gt</p>
+
+    </main>
+    <footer>
+        <div><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i>
+            </a>
+        </div>
+        <div><a href="https://github.com/Kipanyu/" target="_blank"> <i class="fab fa-github-square fa-3x"></i>
+            </a>
+        </div>
+        <div><a href="./contacto.html"><i class="far fa-envelope fa-3x"></i></a>
+            
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
