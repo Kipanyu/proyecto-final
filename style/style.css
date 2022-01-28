@@ -301,6 +301,8 @@ img {
     background-color: #393E46;
     border-radius: 2rem;
     justify-content: space-between;
+    
+
 }
 
 .contacto {
@@ -420,7 +422,7 @@ form {
     justify-content: space-around;
     flex-direction: column;
     height: 400px;
-    width: 400px;
+    width: 70%;
     font-family: 'Quicksand', sans-serif;
 
 }
