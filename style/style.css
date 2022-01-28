@@ -166,6 +166,12 @@ nav ul li {
 a {
     color:#D65A31;
     text-decoration: none;
+    
+}
+
+a:hover {
+    color:#83371e;
+
 }
 
 .container {
@@ -220,6 +226,7 @@ div>container {
 
 .main-header h1 span {
     color: #D65A31;
+    
 }
 
 
