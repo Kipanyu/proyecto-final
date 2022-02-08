@@ -1,0 +1,39 @@
+nav {
+    background-color: #232323;
+    font-size: 1.5rem;
+    box-shadow: 2px 7px 10px -2px rgba(0,0,0,0.2);
+-webkit-box-shadow: 2px 7px 10px -2px rgba(0,0,0,0.2);
+-moz-box-shadow: 2px 7px 10px -2px rgba(0,0,0,0.2);
+    a {
+        color:#D65A31;
+        text-decoration: none;
+        
+    }
+    
+    a:hover {
+        color:#aa4726 !important;
+    
+    }
+
+}
+
+
+
+@media only screen and (min-width:768px) {
+    nav {
+        i {
+            margin-left: 30rem;
+        }
+        div {
+            display: flex;
+            margin: auto;
+            height: auto;
+            width: auto;
+            padding: auto;
+            ul {
+                align-items: center;
+            }
+        }
+
+    }   
+}
