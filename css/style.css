@@ -213,6 +213,7 @@ footer a:hover {
   }
 }
 
+<<<<<<< HEAD
 /*
 
 footer>div {
@@ -221,6 +222,16 @@ footer>div {
 
 }
 
+=======
+/*
+
+footer>div {
+    margin: 10%;
+    
+
+}
+
+>>>>>>> cae756fe8c17268ea942e3159c5026821a996fb5
 */
 .codigo {
   font-style: italic;
