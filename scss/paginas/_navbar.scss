@@ -17,6 +17,20 @@ nav {
 
 }
 
+.fas.fa-laptop-code {
+    animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
 
 
 @media only screen and (min-width:768px) {

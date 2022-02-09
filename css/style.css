@@ -15,6 +15,33 @@ nav a:hover {
   color: #aa4726 !important;
 }
 
+.fas.fa-laptop-code {
+  -webkit-animation: rotation 15s infinite linear;
+          animation: rotation 15s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   nav i {
     margin-left: 30rem;
@@ -43,11 +70,11 @@ nav a:hover {
 }
 
 body {
-  background-color: #222831;
+  background: radial-gradient(#222831 0%, #1e212a 96%, #232323 100%);
   font-family: "Quattrocento", serif;
 }
 
-h1 {
+body h1 {
   color: #D65A31;
   text-align: center;
   margin-top: 2rem;
@@ -121,10 +148,6 @@ img {
           box-sizing: border-box;
 }
 
-body {
-  background-color: #222831;
-}
-
 img {
   border-radius: 10rem;
   margin-bottom: 1rem;
@@ -172,6 +195,82 @@ img {
   h1 {
     margin-top: 3rem;
     margin-bottom: 4rem;
+  }
+}
+
+body {
+  color: whitesmoke;
+}
+
+body main {
+  margin-bottom: 8rem;
+}
+
+body main label {
+  text-align: end;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 0px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #D65A31;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #D65A31;
+  width: 20px;
+}
+
+.contactoForm {
+  border-radius: 5px;
+  background-color: #232323;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
   }
 }
 

@@ -4,3 +4,6 @@ $colorFondo: #222831;
 $fontPrincipal: 'Quattrocento', serif;
 $colorNarajna: #D65A31;
 
+@mixin fondoGrad {
+    background: radial-gradient(#222831 0%, #1e212a 96%, #232323 100%);
+}
