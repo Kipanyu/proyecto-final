@@ -1,0 +1,9 @@
+.card_pro {
+    @extend .card;
+    div {
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+        
+    }
+}
