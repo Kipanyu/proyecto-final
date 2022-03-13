@@ -434,4 +434,13 @@ footer>div {
   -ms-flex-line-pack: center;
       align-content: center;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aa4726;
+}
 /*# sourceMappingURL=style.css.map */
